@@ -39,9 +39,27 @@ public class Solution
             String s = reader.readLine();
             list.add(s.toLowerCase());
         }
-
-
         //напишите тут ваш код
+        for (char letter:
+             alphabet)
+        {
+            int cnt = 0;
+            for (String itemStr:
+                 list)
+            {
+                char[] arrWord = itemStr.toCharArray();
+                for (char arrWordLetter:
+                     arrWord)
+                {
+                    if(arrWordLetter == letter)
+                    {
+                        cnt++;
+                    }
+                }
+            }
+
+            System.out.println(letter + " " + cnt);
+        }
     }
 
 }
