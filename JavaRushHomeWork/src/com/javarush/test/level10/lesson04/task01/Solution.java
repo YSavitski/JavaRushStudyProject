@@ -15,9 +15,12 @@ public class Solution
     {
         int a = 0;
         int b = (byte) a + 46;
+        //System.out.println(b);
         byte c = (byte) (a*b);
-        double f = (char) 1234.15;
-        long d = (short) (a + f / c + b);
+        //System.out.println(c);
+        double f =  1234.15;
+        //System.out.println(f);
+        long d = (long) (a + f / c + b);
         System.out.println(d);
     }
 }

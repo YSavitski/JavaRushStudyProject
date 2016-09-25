@@ -16,7 +16,14 @@ public class Solution
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         String sourceFileName = reader.readLine();
+
+        if(!new File(sourceFileName).exists())
+        {
+            System.out.println("Файл не существует.");
+            sourceFileName = reader.readLine();
+        }
         String destinationFileName = reader.readLine();
+
 
         FileInputStream fileInputStream = new FileInputStream(sourceFileName);
         FileOutputStream fileOutputStream = new FileOutputStream(destinationFileName);
