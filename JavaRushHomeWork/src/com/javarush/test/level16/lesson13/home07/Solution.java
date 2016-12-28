@@ -2,6 +2,7 @@ package com.javarush.test.level16.lesson13.home07;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /* Поиграем?
 Три человека играют в игру. Каждый игрок(Gamer) характеризуется двумя параметрами: фамилией(name) и количеством действий в секунду (rating).
@@ -66,6 +67,28 @@ public class Solution {
         @Override
         public void run() {
             //Add your code here - добавь код тут
+            try
+            {
+                int iterator = 0;
+                while(!OnlineGame.isWinnerFound){
+                    for (String step:
+                         OnlineGame.steps)
+                    {
+                        System.out.println(this.getName() + ":" + step);
+                        iterator++;
+                        Thread.sleep(1000/this.rating);
+                    }
+
+                    if(iterator == OnlineGame.steps.size()){
+                        System.out.println(this.getName() + ":победитель!");
+                        OnlineGame.isWinnerFound = true;
+                    }
+                }
+            }
+            catch(InterruptedException ex)
+            {
+                System.out.println(this.getName() + ":проиграл");
+            }
         }
     }
 }
