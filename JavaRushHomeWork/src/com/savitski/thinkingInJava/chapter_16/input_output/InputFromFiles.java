@@ -1,4 +1,4 @@
-package com.savitski.thinkingInJava.chapter_16;
+package com.savitski.thinkingInJava.chapter_16.input_output;
 
 import java.io.*;
 
