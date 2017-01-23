@@ -1,1 +1,3 @@
-Some text New text
+This question has been asked before and already has an answer. If those answers do not fully address your question, please ask a new question. 
+If you want to show duration time in seconds, you must divide the value by 1'000'000'000. Or if you want a Date object: Date myTime = new Date(duration / 1000);
+You can then access the various methods of Date to print number of minutes, hours, etc.
