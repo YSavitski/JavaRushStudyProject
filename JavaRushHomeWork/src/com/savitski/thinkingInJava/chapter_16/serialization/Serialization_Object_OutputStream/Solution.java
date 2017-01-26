@@ -14,13 +14,24 @@ public class Solution {
     public static void main(String[] args){
         profiles = (ArrayList<Profile>) deserData("profiles");
         System.out.println(profiles.size());
+        /*for (Profile prof :
+             profiles) {
+            System.out.println(prof.getName() + " " + prof.getSurname());
+        }*/
         Profile profile = new Profile();
         profile.setName(JOptionPane.showInputDialog(null, "Enter your name"));
         profile.setSurname(JOptionPane.showInputDialog(null, "Enter your surname"));
+        if(profiles.size() > 0){
+            profile.setFriend(profiles.get(profiles.size()-1));
+        }
+
+
         profiles.add(profile);
         for (Profile p:
              profiles) {
-            System.out.println(p.getName()+" "+p.getSurname());
+            Profile friend =p.getFriend();
+            System.out.println(p.getName()+" "+p.getSurname()+". Friend: "+ (friend!=null ? friend.getName() + " " + friend.getSurname() : "No friend"));
+            friend = null;
         }
         System.out.println(profiles.size());
         serData("profiles", profiles);
@@ -65,7 +76,7 @@ public class Solution {
             e.printStackTrace();
             System.exit(3);
         }
-        return retObject;
+        return retObject==null? new ArrayList<Profile>() : retObject;
     }
 
 
