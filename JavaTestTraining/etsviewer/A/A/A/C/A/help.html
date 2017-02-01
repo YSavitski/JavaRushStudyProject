@@ -1,0 +1,133 @@
+
+<head>
+
+<title>Enthuware Test Studio Help</title>
+<style>
+<!--
+body
+{
+	font-family: "MS Reference Sans Serif", Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+A:link {color: Green;}        
+A:active {color: Green;}    
+A:hover {color: Green;} 
+A:visited {color: Green;}
+
+.titles1
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.titles2
+{
+	font-size: 12px;
+	font-weight: bold;
+}
+.titles3
+{
+	font-size: 12px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+
+<span class='titles2'>Contents</span>
+<ul>
+<li><a href='#intro'>Introduction</a>
+<li><a href='#bcs'>Basic Concepts</a>
+<li><a href='#hts'>How To...</a>
+	<ul>
+	 <li><a href='#hts_takeatest'>take a test ?</a>
+	 <li><a href='#hts_seeanswers'>see answers and explanations to questions?</a>
+	 <li><a href='#hts_custtest'>customize a test ?</a>
+	 <li><a href='#hts_takenotes'>take notes and print them?</a>
+	 <li><a href='#hts_viewq'>view a specific question?</a>
+	 <li><a href='#hts_print'>print a question?</a>
+	 <li><a href='#hts_updates'>check for updates?</a>
+</ul>
+</ul>
+
+<p class='titles2'><a id='intro'>Introduction</a></p>
+Enthuware Test Studio is an integrated environment that allows you to prepare for certification exams. Using ETS, you can access ETS Question Banks, which include Mock Questions, Exam Tips, Reference URLs, and Study Material. While Enthuware provides ETS Question Banks for several Certification exams, any independent vendor may provide an ETS Question Bank tailored for any specific certification exam.
+
+<p class='titles2'>Using an ETS Question Bank</p>
+You can open an ETS Question Bank using the File->Open ETS File (or Ctrl + O) menu option. Contents of an ETS Question Bank are accessible through the hierarchical Tree on the left. It has two Views- Test View and Study View. The Test View shows all the available <a href='#testenv'>Test Environments</a> and their associated <a href='#testcrt'>Test Criteria</a>. You take a test by right clicking on a Test Criteria thus creating a <a href='#testattempt'>Test Attempt</a>. At the bottom of the Test View, you can see your <a href='#progressreport'>Progress Report</a>. The Study View shows your <a href='#notes'>Notes</a>, <a href='#sm'>Study Material</a>, <a href='#rus'>Reference URLs</a>, and the ETS Question Bank Details such as Number of Questions, Section details, and Question Search.
+
+<p class='titles1'><a id='bcs'>Basic Concepts</a></p>
+<ul>
+<li><a id='testenv'><span class='titles3'>Test Environment</span></a><br>
+A Test Environment lets you configure key aspects of a certification exam such as whether to display the number of correct options, time allocated per question, passing percentage, and so on. A Test Environment applies to all the tests that you take under that environment. Usually, the 'Standard Tests' Test Environment mimics the real  exam.
+<li><a id='testcrt'><span class='titles3'>Test Criteria</span></a><br>
+A Test Criteria lets you configure test specific parameters such as number of questions, type of questions, and Exam Objectives on which questions are to be asked. Usually, the tests under 'Stardard Tests' contain questions on all toughness levels and they cover all the exam objectives.
+<li><a id='testattempt'><span class='titles3'>Test Attempt</span></a><br>
+When you take a take a test by double clicking any Test Criteria, a test attempt is created. It stores the run time data of your test such as your answers, time remaining, and any notes that you might have taken. When you finish the test, it keeps track of your score, and shows you how well you performed in various exam objectives.
+<li><a id='progressreport'><span class='titles3'>Progress Report</span></a><br>
+This tracks your performance over the due course of time as you take tests. It shows your strong and weak areas graphically.
+<li><a id='sm'><span class='titles3'>Study Material</span></a><br>
+An ETS Question Bank provider may supply pdf documents, charts, or any such study material that might be helpful to you in your exam preparation. You can view this material by double clicking on it. When you double click on any node under Study Material, the default viewer program for that extension is launched. For example, if it is a pdf file, Adobe Acrobat Reader will be launched. The resource file itself is also extracted and save in the directory from where you launch ETS Viewer.
+<li><a id='rus'><span class='titles3'>Reference URLs</span></a><br>
+An ETS Question Bank provider may provide links to helpful websites that may contain useful information regarding your exam preparation.You can view these links by double clicking on them.
+<li><a id='notes'><span class='titles3'>Notes</span></a><br>
+You can take notes while reading the study material, browsing Internet, or even while taking or reviewing a test. All your notes are kept organized in one place. Usually, such notes become an important last minute preparation tool.
+</ul>
+
+<p class='titles1'><a id='hts'>How to...</a></p>
+<ul>
+<li><a id='hts_takeatest'><span class='titles3'>Take a Test</span></a><br>
+Expand the Test View tree and just double click on any Test Criteria. It will ask you to enter a name for the test attempt. You can give any name such as 'My Test 1', 'My Test 2', or even informative names for your tests such as "Without Preparation", "With Preparation". This will show a Test Review window with all the questions in the test. Click on "Continue" to start answering questions. Answers and Explanations to the questions will be displayed when you finish answering the test by clicking on "Evaluate Test" button on the Test Review screen.
+<li><a id='hts_seeanswers'><span class='titles3'>See answers and explanations to questions</span></a><br>
+There are three ways to see the answers - <br/>
+1. Start a test and answer questions as explained above. Then finish the test by clicking "Review" button on the question dialog and then "Evaluate Test" button at the bottom of the Test Review screen. Now, you can double click on any question on the Review screen to see the answer and explanation for that question.<br/>
+2. Instead of starting a Test, right click on a Test Criteria. For example, right click on Test 1 node under Standard Test and select "Open" instead of "Take this test". Now select "View Questions" on the resulting screen at the bottom. Double click on any question to view that question and click on “Evaluate” at the bottom to see the answer and explanation to that question.<br/>
+3. If you know the question id of a question, use Tools ->View Question menu and open the question. Click on "Evaluate" to see that answer to that question.
+<li><a id='hts_custtest'><span class='titles3'>Customize a Test</span></a><br>
+You can create customized tests under any Test Environment by right clicking and then selecting 'Create New Test Criteria' option. If the ETS Question Bank provider does not allow creating a new Test Criteria under existing Test Environments, you must first create a new Test Environment by right clicking on the root element of the Test View tree.
+<br><br>
+<ol>
+<li>Upon clicking the "Create New Test Criteria" a dialog for entering a name for the test is popped up. You can specify any informative name for example, "Section123Easy Test". 
+<li>A new element will be created in the Test View under that Test Environment by that name and the Test Criteria dialog. If you close it, you can reopen it by double clicking the node in the Tree View. 
+<li>You need to specify three things on the Test Criteria dialog - Toughness Levels, Exam Objectives/Sections and Question Selection Method.
+<li>Toughness levels and Exam Objectives/Section specify the toughness levels of the questions and the sections that will be included in the test. Check the appropriate check boxes to select the desired toughness levels and sections.
+<li>The "Question Selection Method" allows you to specify whether you want a fixed range of questions or you want questions to be selected randomly from the selected sections (thus, getting a new set of questions each time you take this test). If you select "Range", you have to specify the range of questions for each section by double clicking on the "Range Selected" column in the section list. In this case, the number of questions is calculated according to the ranges that you specify for each section. If you select "Random", you have to set the number of questions that you want to have in a test. You can also specify the actual Question Ids that you want to have on the tests by selecting the 'Hardcoded' option.
+<li>Save the test criteria by clicking the 'Save' button. 
+</ol> 
+
+<p>Important:
+<ol>
+<li>If you select 'Random' in Step 2 of Test Criteria dialog, you have to specify the total number of question in the test (not for each section). You can do so by double clicking the 'Random' label in Step 3. In this case, questions are selected randomly from the sections that you selected.
+<li>If you select 'Range' in Step 2 of Test Criteria window, you have to specify the range of questions (starting question number to ending question number) for each section that you selected in Step 2. You can do so by double clicking each row of the 'Range Selected' column of Step 2. In this case, you do not have to specify the total number of questions because the range of questions that you specified for each section determines the total number of questions.
+</ol>
+ 
+
+<li><a id='hts_takenotes'><span class='titles3'>Take Notes/Printing Notes</span></a><br>
+To add a note to a question just click on 'My Note' on the question view. You can also add a note by right clicking on 'My Notes' element in the Study View tree. To view all the notes that you have written, just double click the 'My Notes' element and it will open the notes screen on the right hand side. You can open the same notes in your browser using "Open in Browser" button in the top right corner of the notes screen and print them from the browser itself.
+
+<li><a id='hts_viewq'><span class='titles3'>View a specific Question</span></a><br>
+This feature is very helpful when you ask any doubt/clarification about any question. When we reply back, you may want to view the same question again. To view a question when you know the question id, use Tools -> Open Question menu item. If you do not know the question id, you can search for it. To do so, open the Question Bank Details from Study View and go the Question Search tab. Put the search criteria click 'Search'. 
+
+
+
+<li><a id='hts_print'><span class='titles3'>Print a Question</span></a><br>
+Click on the Print icon in the top right corner of the question view dialog. 
+
+
+<li><a id='hts_print'><span class='titles3'>Check for updates</span></a><br>
+You can check whether a new version of ETS Viewer is available or not using Tools -> Check for Viewer Updates menu. To check for Question Bank updates, please open the Question Bank Details screen (by double clicking the Question Bank tree node in Study View). On Bank Information tab, click on Check for updates. This is enabled only if the Question Bank provider has specified an update link. You can also go to bank home page for more information.
+
+<!-- <p class='titles1'><a id='hts'>Miscellaneous</a></p>
+<ul>
+<li><a id='hts_'><span class='titles3'>Standard Tests and Practice Tests</span></a><br>
+<li><a id='hts_'><span class='titles3'>Question Bank Details</span></a><br>
+<li><a id='hts_'><span class='titles3'>Making sure you have gone through every question in the question bank</span></a><br>
+</ul>
+-->
+</body>
+</html>
+
