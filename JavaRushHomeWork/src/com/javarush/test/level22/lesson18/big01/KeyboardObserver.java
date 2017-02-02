@@ -1,5 +1,8 @@
 package com.javarush.test.level22.lesson18.big01;
 
+/**
+ * Created by esavitski on 02.02.2017.
+ */
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.FocusEvent;
@@ -77,4 +80,3 @@ public class KeyboardObserver extends Thread
         return keyEvents.poll();
     }
 }
-

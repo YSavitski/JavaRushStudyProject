@@ -1,5 +1,11 @@
 package com.javarush.test.level22.lesson09.task01;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -19,7 +25,43 @@ import java.util.List;
 public class Solution {
     public static List<Pair> result = new LinkedList<>();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+
+        List<String> words = new ArrayList<>();
+
+        BufferedReader consoleReader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader fileReader = new BufferedReader(new FileReader(consoleReader.readLine()));
+        consoleReader.close();
+        while (fileReader.ready()){
+            words.addAll(Arrays.asList(fileReader.readLine().split(" ")));
+        }
+        fileReader.close();
+        findPairs(words);
+        for (Pair pair:
+             result) {
+            System.out.println(pair);
+        }
+    }
+
+    public static void findPairs(List<String> words){
+        for(int i = 0; i < words.size(); i++)
+        {
+            for(int j = 0; j < words.size();)
+            {
+                if(words.get(j).equals(new StringBuilder(words.get(i)).reverse().toString()) && j != i)
+                {
+                    Pair pair = new Pair();
+                    pair.first = words.get(j);
+                    pair.second = words.get(i);
+                    result.add(pair);
+                    words.remove(j);
+                    words.remove(i);
+                    j = 0;
+                }
+                else
+                    j++;
+            }
+        }
     }
 
     public static class Pair {
