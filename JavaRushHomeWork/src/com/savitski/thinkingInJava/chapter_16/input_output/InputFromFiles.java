@@ -60,7 +60,7 @@ public class InputFromFiles {
         PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter(fileOut)));
         String tempStr = null;
         while ((tempStr = reader.readLine()) != null){
-            writer.println(tempStr);;
+            writer.println(tempStr);
         }
         reader.close();
         writer.close();
