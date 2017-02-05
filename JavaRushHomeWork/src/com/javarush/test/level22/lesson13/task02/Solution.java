@@ -12,12 +12,13 @@ public class Solution {
     static Charset utf8 = Charset.forName("UTF-8");
 
     public static void main(String[] args) throws IOException {
-        String fileName1 = null, fileName2 = null;
-        BufferedReader consolereader = new BufferedReader(new InputStreamReader(System.in));
-        fileName1 = consolereader.readLine();
-        fileName2 = consolereader.readLine();
-        File file1 = new File(fileName1);
-        File file2 = new File(fileName2);
-        FileInputStream inputStream = new FileInputStream(file1);
+        BufferedReader reader = new BufferedReader(new FileReader(args[0]));
+        PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter(args[1])));
+        String tempStr = null;
+        while ((tempStr = reader.readLine()) != null){
+            writer.println(new String(tempStr.getBytes(windows1251), utf8));
+        }
+        reader.close();
+        writer.close();
     }
 }
