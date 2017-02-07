@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1c756ab-2710-4a8f-9e3b-07344795a365" name="Default" comment="first task from 20th level">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="c1c756ab-2710-4a8f-9e3b-07344795a365" name="Default" comment="first task from 20th level" />
     <list id="e0fce698-fc26-49f7-9f1d-931daf4d1454" name="Rejected commit: Default" comment="first task from 20th level" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -746,12 +744,12 @@
       <workItem from="1486247644864" duration="18390000" />
       <workItem from="1486502940592" duration="227000" />
       <workItem from="1486503451146" duration="249000" />
-      <workItem from="1486503731003" duration="175000" />
+      <workItem from="1486503731003" duration="754000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187152000" />
+    <option name="totallyTimeSpent" value="187731000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
