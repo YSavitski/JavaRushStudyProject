@@ -11,5 +11,6 @@ public class Solution {
 
     public static void printCircleLength(int radius) {
         //напишите тут ваш код
+        System.out.println((double)(3.14*2*radius));
     }
 }

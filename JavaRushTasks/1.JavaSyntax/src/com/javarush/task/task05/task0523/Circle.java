@@ -13,7 +13,7 @@ public class Circle {
         System.out.println(circle.color.getDescription());
     }
 
-    public void Circle() {
+    public  Circle() {
         color = new Color();
     }
 
