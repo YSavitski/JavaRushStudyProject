@@ -2,142 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/jusched.log" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/jusched.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/long endTime = System.currentTimeMillis();" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/long endTime = System.currentTimeMillis();" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/out/production/JavaRushHomeWork/com/javarush/test/level22/lesson18/big01/Условие задачи.txt" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/out/production/JavaRushHomeWork/com/javarush/test/level22/lesson18/big01/Условие задачи.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/out/production/JavaRushHomeWork/com/savitski/thinkingInJava/chapter_16/nio/file.txt" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/out/production/JavaRushHomeWork/com/savitski/thinkingInJava/chapter_16/nio/file.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level14/lesson08/home06/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level14/lesson08/home06/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level14/lesson08/home07/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level14/lesson08/home07/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level14/lesson08/home08/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level14/lesson08/home08/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level16/lesson13/bonus01/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level16/lesson13/bonus01/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level16/lesson13/bonus01/common/ImageReader.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level16/lesson13/bonus01/common/ImageReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level16/lesson13/bonus01/common/ImageTypes.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level16/lesson13/bonus01/common/ImageTypes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level16/lesson13/bonus02/Message.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level16/lesson13/bonus02/Message.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level16/lesson13/bonus02/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level16/lesson13/bonus02/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level16/lesson13/bonus03/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level16/lesson13/bonus03/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level16/lesson13/home07/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level16/lesson13/home07/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level16/lesson13/home08/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level16/lesson13/home08/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level16/lesson13/home09/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level16/lesson13/home09/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level16/lesson13/home10/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level16/lesson13/home10/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level17/lesson02/task01/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level17/lesson02/task01/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level17/lesson02/task02/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level17/lesson02/task02/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level17/lesson04/task01/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level17/lesson04/task01/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level17/lesson04/task02/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level17/lesson04/task02/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level17/lesson04/task03/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level17/lesson04/task03/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level17/lesson04/task04/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level17/lesson04/task04/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level17/lesson04/task05/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level17/lesson04/task05/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson03/task01/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson03/task01/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson03/task02/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson03/task02/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson03/task03/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson03/task03/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson03/task04/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson03/task04/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson03/task05/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson03/task05/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson05/task01/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson05/task01/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson05/task02/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson05/task02/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson05/task03/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson05/task03/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson05/task04/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson05/task04/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson05/task05/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson05/task05/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson08/task01/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson08/task01/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson08/task02/AmigoOutputStream.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson08/task02/AmigoOutputStream.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson08/task02/QuestionFileOutputStream.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson08/task02/QuestionFileOutputStream.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson08/task03/AmigoOutputStream.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson08/task03/AmigoOutputStream.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson08/task04/TxtInputStream.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson08/task04/TxtInputStream.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson08/task04/UnsupportedFileNameException.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson08/task04/UnsupportedFileNameException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson08/task05/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson08/task05/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson10/home01/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson10/home01/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson10/home02/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson10/home02/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson10/home03/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson10/home03/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson10/home04/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson10/home04/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson10/home05/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson10/home05/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson10/home06/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson10/home06/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson10/home07/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson10/home07/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson10/home08/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level18/lesson10/home08/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson03/task01/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson03/task01/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson03/task02/AdapterFileOutputStream.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson03/task02/AdapterFileOutputStream.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson03/task02/AmigoStringWriter.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson03/task02/AmigoStringWriter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson03/task03/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson03/task03/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson03/task04/Person.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson03/task04/Person.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson03/task04/PersonScanner.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson03/task04/PersonScanner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson03/task04/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson03/task04/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson03/task05/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson03/task05/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson05/task01/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson05/task01/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson05/task02/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson05/task02/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson05/task03/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson05/task03/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson05/task04/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson05/task04/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson05/task05/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson05/task05/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson10/home01/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson10/home01/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson10/home02/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson10/home02/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson10/home03/Person.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson10/home03/Person.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson10/home03/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson10/home03/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson10/home04/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson10/home04/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson10/home05/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson10/home05/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson10/home06/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson10/home06/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson10/home07/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson10/home07/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson10/home08/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson10/home08/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson10/home09/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson10/home09/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson10/home10/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level19/lesson10/home10/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson02/task02/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson02/task02/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson02/task02/User.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson02/task02/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson02/task03/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson02/task03/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson02/task04/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson02/task04/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson02/task05/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson02/task05/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson04/task03/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson04/task03/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson07/task01/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson07/task01/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson07/task02/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson07/task02/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson07/task03/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson07/task03/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson07/task04/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson07/task04/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson07/task05/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson07/task05/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson10/home01/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson10/home01/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson10/home02/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson10/home02/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson10/home03/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson10/home03/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson10/home04/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson10/home04/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson10/home05/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson10/home05/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson10/home06/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson10/home06/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson10/home07/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson10/home07/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson10/home08/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level20/lesson10/home08/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson02/task01/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson02/task01/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson02/task02/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson02/task02/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson02/task03/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson02/task03/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson05/task01/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson05/task01/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson05/task02/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson05/task02/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson05/task03/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson05/task03/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson08/task01/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson08/task01/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson08/task02/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson08/task02/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson08/task03/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson08/task03/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson10/task01/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson10/task01/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson10/task02/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson10/task02/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson10/task03/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level21/lesson10/task03/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson05/home01/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson05/home01/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson05/home01/Task.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson05/home01/Task.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson05/home01/ThisUncaughtExceptionHandler.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson05/home01/ThisUncaughtExceptionHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson05/home01/TooShortStringFirstThreadException.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson05/home01/TooShortStringFirstThreadException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson05/home01/TooShortStringSecondThreadException.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson05/home01/TooShortStringSecondThreadException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson05/task01/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson05/task01/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson05/task02/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson05/task02/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson07/task01/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson07/task01/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson07/task02/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson07/task02/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson07/task03/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson07/task03/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson09/task01/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson09/task01/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson09/task02/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson09/task02/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson09/task03/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson09/task03/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson13/task01/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson13/task01/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson13/task03/Solution.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson13/task03/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson18/big01/Field.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson18/big01/Field.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson18/big01/Figure.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson18/big01/Figure.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson18/big01/Tetris.java" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson18/big01/Tetris.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson18/big01/Условие задачи.txt" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/javarush/test/level22/lesson18/big01/Условие задачи.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/savitski/thinkingInJava/chapter_16/nio/file.txt" afterPath="$PROJECT_DIR$/../JavaRushHomeWork/src/com/savitski/thinkingInJava/chapter_16/nio/file.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaTestTraining/etsviewer/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../JavaTestTraining/etsviewer/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaTestTraining/etsviewer/.idea/etsviewer.iml" afterPath="$PROJECT_DIR$/../JavaTestTraining/etsviewer/.idea/etsviewer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaTestTraining/etsviewer/.idea/misc.xml" afterPath="$PROJECT_DIR$/../JavaTestTraining/etsviewer/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaTestTraining/etsviewer/.idea/modules.xml" afterPath="$PROJECT_DIR$/../JavaTestTraining/etsviewer/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaTestTraining/etsviewer/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JavaTestTraining/etsviewer/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaTestTraining/etsviewer/A/A/A/C/A/help.html" afterPath="$PROJECT_DIR$/../JavaTestTraining/etsviewer/A/A/A/C/A/help.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaTestTraining/etsviewer/A/A/A/C/A/licenseagreement.html" afterPath="$PROJECT_DIR$/../JavaTestTraining/etsviewer/A/A/A/C/A/licenseagreement.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaTestTraining/etsviewer/org/bouncycastle/openssl/test/pkcs7.pem" afterPath="$PROJECT_DIR$/../JavaTestTraining/etsviewer/org/bouncycastle/openssl/test/pkcs7.pem" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaTestTraining/etsviewer/org/bouncycastle/openssl/test/test.pem" afterPath="$PROJECT_DIR$/../JavaTestTraining/etsviewer/org/bouncycastle/openssl/test/test.pem" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" />
     </list>
     <ignored path="JavaRushTasks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -235,20 +101,10 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1932" />
+    <option name="height" value="1038" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -343,10 +199,6 @@
               <option name="myItemId" value="task23" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task2312" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -371,6 +223,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="task23" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task2304" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -412,8 +268,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -540,6 +396,34 @@
       <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -559,7 +443,11 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <method />
     </configuration>
@@ -712,6 +600,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -749,6 +643,46 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -789,7 +723,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -814,6 +748,23 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Solution (2)" />
       <item index="1" class="java.lang.String" itemvalue="Application.Solution (3)" />
@@ -830,34 +781,6 @@
         <item index="4" class="java.lang.String" itemvalue="Application.Solution (2)" />
       </list>
     </recent_temporary>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
   </component>
   <component name="SbtLocalSettings">
     <option name="externalProjectsViewState">
@@ -890,46 +813,45 @@
       <workItem from="1486503886029" duration="804000" />
       <workItem from="1486838349966" duration="3924000" />
       <workItem from="1486842530067" duration="21176000" />
-      <workItem from="1486964900709" duration="97000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27124000" />
+    <option name="totallyTimeSpent" value="27027000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21436115" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21531631" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16144201" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -957,6 +879,26 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task05/task0508/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task05/task0508/Условие.jrtc">
       <provider selected="true" editor-type-id="EditorTypeId">
         <state />
@@ -965,7 +907,8 @@
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task05/task0515/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -982,14 +925,22 @@
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task05/task0521/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="e#433#434#0" expanded="false" />
+            <element signature="e#462#463#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task05/task0522/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#226#227#0" expanded="false" />
+            <element signature="e#252#253#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,7 +952,11 @@
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task05/task0523/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="e#325#326#0" expanded="false" />
+            <element signature="e#360#361#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1013,7 +968,8 @@
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task05/task0524/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1025,7 +981,8 @@
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task06/task0606/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
-          <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+          <caret line="30" column="61" lean-forward="false" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1037,7 +994,8 @@
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task06/task0605/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1049,7 +1007,8 @@
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task06/task0612/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1061,7 +1020,8 @@
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task07/task0706/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1073,7 +1033,8 @@
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task07/task0712/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1085,7 +1046,8 @@
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task07/task0718/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1097,7 +1059,8 @@
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task08/task0812/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1109,7 +1072,8 @@
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task08/task0818/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+          <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1126,14 +1090,16 @@
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task09/task0912/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task09/task0918/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="41" />
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1145,7 +1111,8 @@
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task10/task1006/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,7 +1124,8 @@
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task10/task1007/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1174,7 +1142,8 @@
     <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2301/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1186,14 +1155,16 @@
     <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2302/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2303/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1210,7 +1181,8 @@
     <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2305/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,38 +1194,59 @@
     <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2306/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
-          <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+          <caret line="34" column="65" lean-forward="false" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+          <folding>
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Валидация">
+      <provider selected="true" editor-type-id="EditorTypeId">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2304/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <caret line="31" column="43" lean-forward="false" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2304/ViewMock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2304/DbMock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2304/Условие.jrtc">
-      <provider selected="true" editor-type-id="EditorTypeId">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2312/Условие.jrtc">
       <provider selected="true" editor-type-id="EditorTypeId">
         <state />
       </provider>
