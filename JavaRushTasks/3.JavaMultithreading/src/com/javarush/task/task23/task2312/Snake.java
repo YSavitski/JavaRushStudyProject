@@ -41,7 +41,39 @@ public class Snake {
         return sections.get(0).getY();
     }
 
-    public void move(){
+    public void move()
+    {
+        if (!isAlive) return;
 
+        if (direction == SnakeDirection.UP)
+            move(0, -1);
+        else if (direction == SnakeDirection.RIGHT)
+            move(1, 0);
+        else if (direction == SnakeDirection.DOWN)
+            move(0, 1);
+        else if (direction == SnakeDirection.LEFT)
+            move(-1, 0);
+    }
+
+    private void move(int argX, int argY){
+    }
+
+    private void checkBorders(SnakeSection head)
+    {
+        if ((head.getX() < 0 || head.getX() >= Room.game.getWidth()) || head.getY() < 0 || head.getY() >= Room.game.getHeight())
+        {
+            isAlive = false;
+        }
+    }
+
+    /**
+     *  Метод проверяет - не совпадает ли голова с каким-нибудь участком тела змеи.
+     */
+    private void checkBody(SnakeSection head)
+    {
+        if (sections.contains(head))
+        {
+            isAlive = false;
+        }
     }
 }

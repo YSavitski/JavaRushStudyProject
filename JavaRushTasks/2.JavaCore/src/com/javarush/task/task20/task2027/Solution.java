@@ -1,5 +1,6 @@
 package com.javarush.task.task20.task2027;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /* 
@@ -23,8 +24,56 @@ same - (1, 1) - (4, 1)
     }
 
     public static List<Word> detectAllWords(int[][] crossword, String... words) {
+        List<Word> result = new ArrayList<>();
+        //each word:
+        for (String word : words) {
+            Word temp = new Word(word);
 
-        return null;
+
+            byte[] splitWord = word.getBytes();
+            int m = 0;
+            int n = 0;
+
+
+            //Поиск первой буквы
+            for (int i = 0; i < crossword.length; i++) {
+                for (int j = 0; j < crossword[i].length; j++) {
+                    if (crossword[i][j] == (int) splitWord[0]) {
+                        temp.setStartPoint(j, i);
+                        m = i;
+                        n = j;
+                        break;
+                    }
+                }
+            }
+
+
+            //Поиск направления и следующие буквы
+            int vector_i = 0;
+            int vector_j = 0;
+            for (int w = 1; w < word.length(); w++) {
+                nextLetter:
+                for (int i = -1; i <= 1; i++) {
+                    if ((m + i < 0) || (m + i > crossword.length)) continue;
+                    for (int j = -1; j <= 1; j++) {
+                        if ((n + j < 0) || (n + j > crossword[m + i].length)) continue;
+                        if (crossword[m + i][n + j] == (int) splitWord[w]) {
+                            if ((vector_i == i && vector_j == j) || (vector_i == 0 && vector_j == 0)) {
+                                temp.setEndPoint(n + j, m + i);
+                                m = m + i;
+                                n = n + j;
+                                vector_i = i;
+                                vector_j = j;
+                                break nextLetter;
+                            } else continue;
+                        }
+                    }
+                }
+            }
+            result.add(temp);
+            //System.out.println(temp);
+        }
+        return result;
     }
 
     public static class Word {
