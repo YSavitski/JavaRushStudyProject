@@ -22,6 +22,7 @@ public class SnakeSection {
     @Override
     public boolean equals(Object o)
     {
+        if( o == null) return false;
         if (this == o) return true; // если ссылки равны
         if (!(o instanceof SnakeSection)) return false;  // если не равны типы
         SnakeSection that = (SnakeSection) o;
