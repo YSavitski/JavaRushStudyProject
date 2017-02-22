@@ -28,32 +28,34 @@ public class Solution {
             //перебираем каждое число в массиве
             for (int current_number : tempArray)
                 //если число 0 - считать ничего не нужно, сумма степеней не меняется
-                if (current_number!=0){
+                if (current_number != 0) {
                     //если текущее число возводится в степень впервые - возводим и сохраняем в массив
-                    if (prime_power[current_number][tempArray.length] == 0){
+                    if (prime_power[current_number][tempArray.length] == 0) {
                         //здесь будем считать степень
                         long pow = 1;
                         //Math.pow не использовал, т.к. на больших числах начинаются ошибки
                         //(long)Math.pow(9,17) выводит 16677181699666570 вместо правильного 16677181699666569
-                        for (int j = 0; j <tempArray.length ; j++)
-                            pow*=current_number;
+                        for (int j = 0; j < tempArray.length; j++)
+                            pow *= current_number;
                         prime_power[current_number][tempArray.length] = pow;
                     }
-                    summ+= prime_power[current_number][tempArray.length];
+                    summ += prime_power[current_number][tempArray.length];
+
+                    //если сумма не превышает введеного изначально значения,
+                    //и если их разность кратна 9ти (разность чисел, состоящих из одних и тех же цифер
+                    //    всегда кратна 9ти, и если этого не соблюдается - не лезем в функцию compareArrays -
+                    //    еще немного оптимизации алгоритма)
+                    //и если и сумма и long i состоят из одних и тех же цифер - записываем в массив
+                    if (summ <= N && (summ - i) % 9 == 0 && compareArrays(tempArray, numberToArray(summ)))
+                        result_array.add(summ);
                 }
-            //если сумма не превышает введеного изначально значения,
-            //и если их разность кратна 9ти (разность чисел, состоящих из одних и тех же цифер
-            //    всегда кратна 9ти, и если этого не соблюдается - не лезем в функцию compareArrays -
-            //    еще немного оптимизации алгоритма)
-            //и если и сумма и long i состоят из одних и тех же цифер - записываем в массив
-            if (summ<=N && (summ - i)%9 == 0 &&compareArrays(tempArray, numberToArray(summ)))
-                result_array.add(summ);
+            // сортируем коллекцию и перебразовываем все числа в массив, как требует задача
+
         }
-        // сортируем коллекцию и перебразовываем все числа в массив, как требует задача
         long[] result = new long[result_array.size()];
         Collections.sort(result_array);
-        for (int i = 0; i < result.length ; i++)
-            result[i] = result_array.get(i);
+        for (int j = 0; j < result.length; j++)
+            result[j] = result_array.get(j);
         return result;
     }
 

@@ -1,0 +1,15 @@
+<div class="wdghtml" taskKey="com.javarush.task.task23.task2309">
+<h3>Анонимность иногда так приятна!</h3>
+<p>1. В пакете <span class="text-green"><strong>vo</strong></span> создайте <span class="text-corporate"><strong>public</strong></span> классы <span class="text-corporate"><strong>User</strong></span>, <span class="text-corporate"><strong>Location</strong></span>, <span class="text-corporate"><strong>Server</strong></span>, <span class="text-corporate"><strong>Subject</strong></span>, <span class="text-corporate"><strong>Subscription</strong></span>, которые наследуются от <strong><span class="text-corporate">NamedItem</span></strong><br />
+2. В классе <span class="text-corporate"><strong>Solution</strong></span> для каждого класса создайте свой метод, который возвращает список экземпляров класса.</p>
+<p><strong>Например</strong>, для класса <span class="text-corporate"><strong>User</strong></span> это будет &#8212; <span class="text-corporate"><strong>public</strong></span> <span class="text-red"><strong>List</strong>&lt;User&gt;</span> <mark>getUsers()</mark><br />
+Для класса <span class="text-corporate"><strong>Location</strong></span> это будет &#8212; <span class="text-corporate"><strong>public</strong></span> <span class="text-corporate"><strong>List</strong>&lt;Location&gt;</span> <mark>getLocations()</mark></p>
+<p>3. Внутри каждого такого метода создайте анонимный класс от <strong><span class="text-corporate">AbstractDbSelectExecutor</span></strong> и вызовите его нужный метод.<br />
+<strong>Подсказка:<br />
+</strong><em>тело метода должно начинаться так: </em><mark>return new AbstractDbSelectExecutor</mark></p>
+<p>4. <strong>Пример</strong> вывода для <strong><span class="text-corporate">User</span></strong> и <span class="text-corporate"><strong>Location</strong></span>:<br />
+<code>Id=5, name='User-5', description=Got by executing 'SELECT * FROM USER'<br />
+Id=1, name='Location-1', description=Got by executing 'SELECT * FROM LOCATION'</code></p>
+<p>5. Проанализируйте пример вывода и сформируйте правильный <mark class="user">query</mark> для всех классов.</p>
+
+</div>
