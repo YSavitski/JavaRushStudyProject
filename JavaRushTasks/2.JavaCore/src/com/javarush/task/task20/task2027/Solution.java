@@ -16,11 +16,11 @@ public class Solution {
                 {'p', 'o', 'e', 'e', 'j', 'j'}
         };
         detectAllWords(crossword, "home", "same");
-        /*
-Ожидаемый результат
-home - (5, 3) - (2, 0)
-same - (1, 1) - (4, 1)
-         */
+         /*
+ Ожидаемый результат
+ home - (5, 3) - (2, 0)
+ same - (1, 1) - (4, 1)
+          */
     }
 
     public static List<Word> detectAllWords(int[][] crossword, String... words) {
@@ -28,8 +28,6 @@ same - (1, 1) - (4, 1)
         //each word:
         for (String word : words) {
             Word temp = new Word(word);
-
-
             byte[] splitWord = word.getBytes();
             int m = 0;
             int n = 0;
@@ -71,7 +69,7 @@ same - (1, 1) - (4, 1)
                 }
             }
             result.add(temp);
-            //System.out.println(temp);
+            System.out.println(temp);
         }
         return result;
     }
