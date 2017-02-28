@@ -8,6 +8,12 @@ import com.javarush.task.task36.task3608.model.ModelData;
  */
 public class EditUserView implements View {
     private Controller controller;
+
+
+    public void fireEventUserDeleted(long id) {
+        controller.onUserDelete(id);
+    }
+
     @Override
     public void refresh(ModelData modelData) {
         System.out.println("User to be edited:");
