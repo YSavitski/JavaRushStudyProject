@@ -19,12 +19,24 @@ public class Solution {
 
         public Car() {
             //init wheels here
-            wheels = new ArrayList<Wheel>();
-            for (String name: loadWheelNamesFromDB()) {
-                try {
-                    wheels.add(Wheel.valueOf(name));
-                } catch (IllegalArgumentException e) {
-
+            if(loadWheelNamesFromDB().length!=4){
+                throw new IllegalArgumentException();
+            }
+            else {
+                wheels = new ArrayList<Wheel>();
+                for(String wheelStr: loadWheelNamesFromDB()){
+                    boolean isWheel = false;
+                    for(Wheel wheel: Wheel.values()){
+                        if(wheel.toString().equals(wheelStr)){
+                            isWheel = true;
+                            break;
+                        }
+                    }
+                    if(isWheel){
+                        wheels.add(Wheel.valueOf(wheelStr));
+                    } else {
+                        throw new IllegalArgumentException();
+                    }
                 }
             }
         }
