@@ -18,11 +18,11 @@ public class Soldier extends Human{
     public void fight() {
     }
 
-    public void setBloodGroup(int code){
+    public void setBloodGroup(BloodGroup code){
         super.setBloodGroup(code);
     }
 
-    public int getBloodGroup(){
+    public BloodGroup getBloodGroup(){
         return super.getBloodGroup();
     }
 }
