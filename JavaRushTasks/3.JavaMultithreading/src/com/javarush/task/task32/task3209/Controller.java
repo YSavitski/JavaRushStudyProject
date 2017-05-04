@@ -34,27 +34,23 @@ public class Controller {
         currentFile = null;
     }
 
-    public void openDocument(){
+    public void openDocument() {
         view.selectHtmlTab();
 
-        JFileChooser fileChooser = new JFileChooser();
-        fileChooser.setFileFilter(new HTMLFileFilter());
-        int userChoose = fileChooser.showOpenDialog(view);
+        JFileChooser jFileChooser = new JFileChooser();
+        jFileChooser.setFileFilter(new HTMLFileFilter());
+        int n = jFileChooser.showOpenDialog(view);
 
-        if(userChoose == JFileChooser.APPROVE_OPTION){
-            currentFile = fileChooser.getSelectedFile();
+        if (n == JFileChooser.APPROVE_OPTION) {
+            currentFile = jFileChooser.getSelectedFile();
             resetDocument();
             view.setTitle(currentFile.getName());
 
-            try(FileReader fileReader = new FileReader(currentFile)){
+            try (FileReader fileReader = new FileReader(currentFile)) {
                 new HTMLEditorKit().read(fileReader, document, 0);
                 view.resetUndo();
-
-            } catch (FileNotFoundException e) {
-                ExceptionHandler.log(e);
-            } catch (IOException e) {
-                ExceptionHandler.log(e);
-            } catch (BadLocationException e) {
+            }
+            catch (Exception e) {
                 ExceptionHandler.log(e);
             }
         }
@@ -65,6 +61,7 @@ public class Controller {
             saveDocumentAs();
         } else {
             view.selectHtmlTab();
+            view.setTitle(currentFile.getName());
 
             try(FileWriter fileWriter = new FileWriter(currentFile)) {
                 new HTMLEditorKit().write(fileWriter, document, 0, document.getLength());
@@ -101,17 +98,16 @@ public class Controller {
     public void resetDocument(){
         if(document != null){
             document.removeUndoableEditListener(view.getUndoListener());
-
-            document = (HTMLDocument) new HTMLEditorKit().createDefaultDocument();
-            document.addUndoableEditListener(view.getUndoListener());
-            view.update();
         }
+
+        document = (HTMLDocument) new HTMLEditorKit().createDefaultDocument();
+        document.addUndoableEditListener(view.getUndoListener());
+        view.update();
     }
 
     public void setPlainText(String text){
         resetDocument();
-        Reader reader = new StringReader(text);
-        try {
+        try (StringReader reader = new StringReader(text)) {
             new HTMLEditorKit().read(reader, document, 0);
         } catch (IOException e) {
             ExceptionHandler.log(e);
@@ -121,13 +117,20 @@ public class Controller {
     }
 
     public String getPlainText(){
-        Writer writer = new StringWriter();
+        StringWriter writer = new StringWriter();
         try {
             new HTMLEditorKit().write(writer, document, 0, document.getLength());
         } catch (IOException e) {
             ExceptionHandler.log(e);
         } catch (BadLocationException e) {
             ExceptionHandler.log(e);
+        } finally {
+
+            try {
+                writer.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
         return writer.toString();
     }
