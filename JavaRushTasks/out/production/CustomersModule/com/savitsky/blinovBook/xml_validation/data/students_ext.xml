@@ -1,0 +1,32 @@
+<ns:students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			 xmlns:ns="http://www.example.com/students"
+			 xsi:schemaLocation="http://www.example.com/students students.xsd">
+	<ns:abiturient>
+		<ns:name>Petkevich</ns:name>
+		<ns:telephone>27787474</ns:telephone>
+		<ns:address>
+			<ns:country>Belarus</ns:country>
+			<ns:city>Minsk</ns:city>
+			<ns:street>Slobodskaya 7</ns:street>
+		</ns:address>
+		<ns:average-mark>9.0</ns:average-mark>
+	</ns:abiturient>
+	<ns:student login="MitarAlex7" faculty="ksis">
+		<ns:name>Mitar Alex</ns:name>
+		<ns:telephone>2456474</ns:telephone>
+		<ns:address>
+			<ns:country>Belarus</ns:country>
+			<ns:city>Minsk</ns:city>
+			<ns:street>Kalinovsky 45</ns:street>
+		</ns:address>
+	</ns:student>
+	<ns:student login="Pashkin5">
+		<ns:name>Pashkin Alex</ns:name>
+		<ns:telephone>3453789</ns:telephone>
+		<ns:address>
+			<ns:country>Belarus</ns:country>
+			<ns:city>Brest</ns:city>
+			<ns:street>Knorina 56</ns:street>
+		</ns:address>
+	</ns:student>
+</ns:students>
