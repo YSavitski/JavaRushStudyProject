@@ -4,7 +4,7 @@ package com.savitsky.blinovBook.xml_validation.parsingXMLbySAX;
  * Created by esavitski on 15.05.2017.
  */
 public class Main {
-    private static String filePath = "D:\\myFolder\\Java\\JavaRush\\JavaRushTasks\\CustomersModule\\src\\com\\savitsky\\blinovBook\\xml_validation\\data\\";
+    private static String filePath = System.getProperty("user.dir").concat("\\CustomersModule\\src\\com\\savitsky\\blinovBook\\xml_validation\\data\\");
     public static void main(String[] args){
         StudentsSAXBuilder saxBuilder = new StudentsSAXBuilder();
         saxBuilder.parseXMLtoSET(filePath.concat("students.xml"));
